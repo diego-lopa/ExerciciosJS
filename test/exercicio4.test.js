@@ -4,31 +4,31 @@ var { palindromo } = require('../src/exercicio4.js');
 
 describe('Exercicio 4 - Palíndromo', function() {
     it('ana é palíndromo', function() {
-        assert.true(palindromo('ana'));
+        assert.ok(palindromo('ana'));
     })
 
     it('oso é palíndromo', function() {
-        assert.true(palindromo('oso'));
+        assert.ok(palindromo('oso'));
     })
 
     it('reconocer é palíndromo', function() {
-        assert.true(palindromo('reconocer'));
+        assert.ok(palindromo('reconocer'));
     })
 
     it('asno non é palíndromo', function() {
-        assert.false(palindromo('asno'));
+        assert.ok(!palindromo('asno'));
     })
 
     it('la tele letal é palíndromo', function() {
-        assert.true(palindromo('la tele letal'));
+        assert.ok(palindromo('la tele letal'));
     })
 
     it('A torre da derrota é palíndromo', function() {
-        assert.true(palindromo('A torre da derrota'));
+        assert.ok(palindromo('A torre da derrota'));
     })
     
 
     it('Anotaram a data da maratona é palíndromo', function() {
-        assert.true(palindromo('Anotaram a data da maratona'));
+        assert.ok(palindromo('Anotaram a data da maratona'));
     })
 })
